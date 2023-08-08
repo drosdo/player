@@ -1,0 +1,9 @@
+{
+  "extends": "@ex-yarn-turborepo-demo/tsconfig/react-app.json",
+  "include": [
+    "vite.config.ts"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+  }
+}

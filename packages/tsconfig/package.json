@@ -1,0 +1,10 @@
+{
+  "name": "@ex-yarn-turborepo-demo/tsconfig",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://gitlab.corp.mail.ru/api/v4/projects/24335/packages/npm/"
+  }
+}
