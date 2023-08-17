@@ -14,6 +14,7 @@
   "dependencies": {
     "@ex-yarn-turborepo-demo/dep-1": "workspace:*",
     "@ex-yarn-turborepo-demo/utils": "workspace:*",
+    "@tanstack/react-query": "^4.32.6",
     "react": "^18.1.0",
     "react-native": "^0.70.3"
   },

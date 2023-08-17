@@ -14,7 +14,11 @@ This is an demo repo showing integration between Yarn Workspaces (monorepo manag
   - `yarn test` to run all tests
   - `yarn lint` to lint all packages
 # player
-cd ios to navigate to the ios folder.
-bundle install to install Bundler
-bundle exec pod install to install the iOS dependencies managed by CocoaPods.
-brew install cocoapods
+- `cd ios` to navigate to the ios folder.
+- `bundle install` to install Bundler
+- `bundle exec pod install` to install the iOS dependencies managed by CocoaPods.
+- `brew install cocoapods`
+
+
+# PLAN
+- load file from yandex and play it

@@ -1621,6 +1621,7 @@ __metadata:
     "@ex-yarn-turborepo-demo/dep-1": "workspace:*"
     "@ex-yarn-turborepo-demo/utils": "workspace:*"
     "@react-native-community/eslint-config": ^2.0.0
+    "@tanstack/react-query": ^4.32.6
     "@tsconfig/react-native": ^2.0.2
     "@types/jest": ^26.0.23
     "@types/react": ^18.0.21
@@ -1646,6 +1647,7 @@ __metadata:
     "@ex-yarn-turborepo-demo/dep-1": "workspace:*"
     "@ex-yarn-turborepo-demo/tsconfig": "workspace:*"
     "@ex-yarn-turborepo-demo/utils": "workspace:*"
+    "@tanstack/react-query": ^4.32.6
     "@types/react": ^18.2.15
     "@types/react-dom": ^18.2.7
     "@typescript-eslint/eslint-plugin": ^6.0.0
@@ -2495,6 +2497,32 @@ __metadata:
     "@svgr/hast-util-to-babel-ast": ^7.0.0
     svg-parser: ^2.0.4
   checksum: 009421b8e3f32bf13ebec4d47c7997106cd806c6922349871f2d9a77cd3304f55d30630dd8948ff77a9ead2ee1869ac39ad65cf95ab95b2192ef21d5704bd367
+  languageName: node
+  linkType: hard
+
+"@tanstack/query-core@npm:4.32.6":
+  version: 4.32.6
+  resolution: "@tanstack/query-core@npm:4.32.6"
+  checksum: c06f4b8d7edfc237d34da14c4ff2c71f4e6de662f123914419e9c2fbb9dccb7c1d3f46afd66ca5fea40687c5a99e514750a32a05e809d0db76343a90a45c76a8
+  languageName: node
+  linkType: hard
+
+"@tanstack/react-query@npm:^4.32.6":
+  version: 4.32.6
+  resolution: "@tanstack/react-query@npm:4.32.6"
+  dependencies:
+    "@tanstack/query-core": 4.32.6
+    use-sync-external-store: ^1.2.0
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+    react-native: "*"
+  peerDependenciesMeta:
+    react-dom:
+      optional: true
+    react-native:
+      optional: true
+  checksum: 5ce7939515329d64aee35703de8f030bba383717e68eefb17a32492cca44d8421175b7045e0fd6314faff11cee8a570f42208685947a97bc50d0023d5ae1029e
   languageName: node
   linkType: hard
 
@@ -11050,7 +11078,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"use-sync-external-store@npm:^1.0.0":
+"use-sync-external-store@npm:^1.0.0, use-sync-external-store@npm:^1.2.0":
   version: 1.2.0
   resolution: "use-sync-external-store@npm:1.2.0"
   peerDependencies:
