@@ -81,7 +81,7 @@ const App = () => {
           }}>
           <Section title="Step One">Hi {formatName('Johnathan')}</Section>
           <Section title="Step One">
-            f <Text style={styles.highlight}>App.tsx</Text> to change this
+            fdd <Text style={styles.highlight}>App.tsx</Text> to change this
             screen and then come back to see your edits.
           </Section>
           <Section title="See Your Changes">
